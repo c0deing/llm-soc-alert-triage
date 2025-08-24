@@ -26,17 +26,16 @@ def allowed_priority(priority_str):
         return False
 
 def clean_justification(text):
-    # Convert to string if needed
+    # Convert to string
     text = str(text)
-    # Remove control characters (including null bytes)
-    # \x00-\x1F: ASCII control chars, \x7F-\x9F: C1 control chars
+    # Remove control characters
     text = re.sub(r'[\x00-\x1F\x7F-\x9F]', '', text)
     # Remove invalid Unicode characters
     text = ''.join(
         char for char in text 
         if unicodedata.category(char)[0] not in ('C',)
     )
-    # Truncate excessively long text (Excel cell limit is 32,767 chars)
+    # Truncate justification text
     MAX_LENGTH = 30000
     if len(text) > MAX_LENGTH:
         text = text[:MAX_LENGTH] + " [TRUNCATED]"
@@ -87,4 +86,5 @@ def alert_postprocesing_from_jsonl():
     print(f"\nPost processed alerts have been saved to: {output_file}\nBad Priorities: {bad_priorities}")
 
 if __name__ == "__main__":
+
     alert_postprocesing_from_jsonl()
