@@ -5,7 +5,6 @@ import os
 # Convert enriched JSONL to formatted Excel file
 def jsonl_to_excel():
     input_jsonl = input("Enter the path to your jsonl file (e.g. classified_alerts.jsonl): ").strip()
-    # Convert enriched JSONL to formatted Excel file
     # Give the xlsx file the same name for easier identification
     # Get the filename without extension
     file_name = os.path.splitext(input_jsonl)[0]
@@ -53,4 +52,5 @@ def jsonl_to_excel():
     print(f"Excel saved to {output_xlsx}")
 
 if __name__ == "__main__":
+
     jsonl_to_excel()
