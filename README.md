@@ -74,7 +74,7 @@ This repository is licensed under the [MIT License](LICENSE), allowing reuse and
 ## Citation
 If you use this repository in academic work, please cite it as:
 
-Matthias Rieger. (2025). LLM-SOC-Alert-Triage: Artifacts of the dissertation “Possibilities and Limitations of Using Large Language Models (LLMs) for Alert Classification and Prioritisation in Security Operations Centers (SOCs)”. GitHub. https://github.com/c0deing/llm-soc-alert-triage
+Matthias Rieger. (2025). LLM-SOC-Alert-Triage: Artifacts of the research paper “Possibilities and Limitations of Using Large Language Models (LLMs) for Alert Classification and Prioritisation in Security Operations Centers (SOCs)”. GitHub. https://github.com/c0deing/llm-soc-alert-triage
 
  
 
