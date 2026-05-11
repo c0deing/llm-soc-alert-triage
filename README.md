@@ -1,8 +1,8 @@
 # LLM-SOC-Alert-Triage
-Artifacts of the dissertation “Possibilities and Limitations of Using Large Language Models (LLMs) for Alert Classification and Prioritisation in Security Operations Centers (SOCs)”. Contains scripts, datasets, results and visualisations. Published to support reproducibility and future research.
+Artifacts of the research paper “Possibilities and Limitations of Using Large Language Models (LLMs) for Alert Classification and Prioritisation in Security Operations Centers (SOCs)”. Contains scripts, datasets, results and visualisations. Published to support reproducibility and future research.
 
 ## Overview
-The project investigates the use of general-purpose LLMs (OpenAI and DeepSeek models) for:
+The project investigates the use of general-purpose LLMs (by OpenAI, DeepSeek and Ai2) for:
 - Classifying security alerts (True Positive vs. False Positive)
 - Prioritising alerts (Low / Medium / High / Critical)
 
@@ -45,6 +45,7 @@ Evaluation covers classification metrics, prioritisation performance and operati
 |GPT-4.1 mini|gpt-4.1-mini-2024-04-14|
 |DeepSeek-Chat|DeepSeek-V3-0324|
 |DeepSeek-Reasoner|DeepSeek-R1-0528|
+|Olmo 3|olmo-3.1-32b-instruct|
 
 ### Dataset
 178 alerts in total
@@ -64,7 +65,8 @@ Key findings:
 - LLMs show potential in regards to alert classification i.e. threat detection
   - GPT-4o mini achieved the best recall of 95.19%, yet exhibited a false positive rate of 72.97% 
 - All models struggle significantly with prioritisation
-  - GPT-4.1 achieved the best macro recall of 34.59% with an accuracy of 49.44% only  
+  - GPT-4.1 achieved the best macro recall of 34.59% with an accuracy of 49.44% only
+- Traditional ML models continue to provide strong practical value in regard to the binary classification task  
 
 Full results are in the `/results/` folder
 
