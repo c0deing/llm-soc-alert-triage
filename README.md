@@ -1,6 +1,9 @@
 # LLM-SOC-Alert-Triage
 Artifacts of the research paper “Possibilities and Limitations of Using Large Language Models (LLMs) for Alert Classification and Prioritisation in Security Operations Centers (SOCs)”. Contains scripts, datasets, results and visualisations. Published to support reproducibility and future research.
 
+## Graphical Abstract
+<img src="GA.drawio.png" width="500">
+
 ## Overview
 The project investigates the use of general-purpose LLMs (by OpenAI, DeepSeek and Ai2) for:
 - Classifying security alerts (True Positive vs. False Positive)
@@ -24,6 +27,8 @@ Evaluation covers classification metrics, prioritisation performance and operati
 - `/results/` – Evaluation outputs including JSONL outputs, Excel reports and confusion matrix visualisations
 
 ## Methodology
+<img src="Methodology.drawio.png" width="500">
+
 0. Raised alerts in Wazuh and gathered them in two JSONL files:
     - `TP_alerts_raw.jsonl` for True Positives (TP)
     - `FP_alerts_raw.jsonl` for False Positives (FP)
