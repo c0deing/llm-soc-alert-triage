@@ -1,5 +1,5 @@
 # LLM-SOC-Alert-Triage
-Artifacts of the research paper “Possibilities and Limitations of Using Large Language Models (LLMs) for Alert Classification and Prioritisation in Security Operations Centers (SOCs)”. Contains scripts, datasets, results and visualisations. Published to support reproducibility and future research.
+Artifacts of the research paper “[Possibilities and Limitations of Using Large Language Models (LLMs) for Alert Classification and Prioritisation in Security Operations Centers (SOCs)](https://doi.org/10.1016/j.eswa.2026.133194)”. Contains scripts, datasets, results and visualisations. Published to support reproducibility and future research.
 
 ## Graphical Abstract
 <img src="GA.drawio.png" width="500">
