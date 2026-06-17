@@ -68,7 +68,7 @@ With regards to Prioritisation:
 ## Results
 Key findings:
 - LLMs show potential in regards to alert classification i.e. threat detection
-  - GPT-4o mini achieved the best recall of 95.19%, yet exhibited a false positive rate of 72.97% 
+  - Olmo 3 achieved the best recall of 96.15%, yet exhibited a false positive rate of 90.54% 
 - All models struggle significantly with prioritisation
   - GPT-4.1 achieved the best macro recall of 34.59% with an accuracy of 49.44% only
 - Traditional ML models continue to provide strong practical value in regard to the binary classification task  
